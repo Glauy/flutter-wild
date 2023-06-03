@@ -1,10 +1,14 @@
 {
     "name": "Flutter",
-    "image": "github/code-spaces-flutter:latest",
-    "extensions": [
-        "dart-code.dart-code",
-        "dart-code.flutter"
-    ],
+    // "image": "github/code-spaces-flutter:latest",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Dart-Code.dart-code",
+                "Dart-Code.flutter"
+            ]
+        }
+    },
     "settings": {
         "dart.flutterSdkPath": "/usr/local/flutter"
     },
