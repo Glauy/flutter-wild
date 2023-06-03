@@ -6,6 +6,7 @@
     "build": {
         "dockerfile": "Dockerfile"
     },
+    "remoteUser": "glauy",
     // "image": "github/code-spaces-flutter:latest",
     "customizations": {
         "vscode": {
@@ -14,7 +15,8 @@
                 "Dart-Code.flutter"
             ],
             "settings": {
-                "dart.flutterSdkPath": "/usr/local/flutter"
+                "dart.flutterSdkPath": "/home/glauy/flutter",
+                "terminal.integrated.shell.linux": "/bin/bash"
             }
         }
     },
