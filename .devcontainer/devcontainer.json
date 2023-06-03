@@ -1,0 +1,12 @@
+{
+    "name": "Flutter",
+    "image": "github/code-spaces-flutter:latest",
+    "extensions": [
+        "dart-code.dart-code",
+        "dart-code.flutter"
+    ],
+    "settings": {
+        "dart.flutterSdkPath": "/usr/local/flutter"
+    },
+    "postCreateCommand": "flutter doctor"
+}
